@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to bottom, #20475c 15%, #fff 100%);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.button-header {
+  color: white;
+  background-color: #0f232e;
+  border-color: #eba67c;
+  width: 101px;
+  height: 34px;
+  position: relative;
+  top: 10px;
+  border-radius: 40px;
+  margin-left: 70px;
+}
+
+.sideBar {
+  position: absolute;
+  width: 110px;
+  height: 2008px;
+  background-color: #20475c;
+}
+
+.menuHamb {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
+.button-side1,
+.button-side2,
+.button-side3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: #0f232e;
+  border-color: #eba67c;
+  width: 101px;
+  height: 34px;
+  position: relative;
+  top: 400px;
+  margin-top: 10px;
+  right: 65px;
+  border-radius: 40px;
+  margin-left: 70px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  margin: auto;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+
+h1 {
+  color: #0f232e;
+  font-size: 25px;
+  position: absolute;
+  top: 220px;
+  left: 400px;
+}
+
+label {
+  font-size: 20px;
+  color: #eba67c;
+  margin-bottom: 5px;
+  position: relative;
+  top: 70px;
+  align-items: center;
+}
+
+.input1,
+.input2 {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 7px;
+  border-color: #0f232e;
+  top: 75px;
+  right: 40px;
+}
+
+button {
+  color: white;
+  background-color: #0f232e;
+  border-color: #eba67c;
+  width: 101px;
+  height: 34px;
+  position: relative;
+  top: 120px;
+  border-radius: 40px;
+  margin-left: 70px;
+}
+
+a {
+  text-decoration: none;
+}
