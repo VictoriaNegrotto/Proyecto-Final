@@ -64,7 +64,10 @@ div {
   margin: auto;
   position: relative;
   top: 200px;
-  left: 100px;
+  left: 80px;
+  border: 1px solid #ccc; /* Borde alrededor del formulario */
+  padding: 40px; /* Espaciado interno dentro del formulario */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar el formulario */
 }
 
 h1 {
@@ -80,7 +83,7 @@ label {
   color: #eba67c;
   margin-bottom: 5px;
   position: relative;
-  top: 70px;
+  top: 60px;
   align-items: center;
 }
 
@@ -94,8 +97,7 @@ label {
   background-color: white;
   border-radius: 7px;
   border-color: #0f232e;
-  top: 75px;
-  right: 40px;
+  top: 60px;
 }
 
 button {
