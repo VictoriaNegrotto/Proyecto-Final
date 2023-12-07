@@ -1,13 +1,21 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #0f232e0c;
+  background-image: url("../Assets/Ellipse\ 5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+main {
+  flex: 1;
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  background: linear-gradient(to bottom, #20475c 15%, #fff 100%);
+  background: linear-gradient(to bottom, #20475c 40%, #fff 100%);
+  color: #fff;
+  padding: 10px;
   width: 100%;
-  height: 60px;
 }
 
 .button-header {
@@ -19,7 +27,7 @@ header {
   position: relative;
   top: 10px;
   border-radius: 40px;
-  margin-left: 70px;
+  margin-left: 110px;
 }
 
 .input {
@@ -39,7 +47,7 @@ header {
 .tittle {
   position: absolute;
   left: 350px;
-  top: 350px;
+  top: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: inherit;
   font-size: 120px;
@@ -53,7 +61,7 @@ header {
 .sideBar {
   position: absolute;
   width: 110px;
-  height: 2008px;
+  height: 100%;
   background-color: #20475c;
 }
 
@@ -65,7 +73,9 @@ header {
   height: 35px;
 }
 
-.button-side1 {
+.button-side1,
+.button-side2,
+.button-side3 {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -82,45 +92,10 @@ header {
   margin-left: 70px;
 }
 
-.button-side2 {
+footer {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-  background-color: #0f232e;
-  border-color: #eba67c;
-  width: 101px;
-  height: 34px;
   position: relative;
-  top: 400px;
-  margin-top: 10px;
-  right: 65px;
-  border-radius: 40px;
-  margin-left: 70px;
-}
-.button-side3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-  background-color: #0f232e;
-  border-color: #eba67c;
-  width: 101px;
-  height: 34px;
-  position: sticky;
-  top: 460px;
-  margin-top: 10px;
-  right: 65px;
-  border-radius: 40px;
-  margin-left: 6px;
-}
-.fotoFondo {
-  width: 800px;
-  height: 500px;
-  position: absolute;
-  left: 720px;
-  bottom: 0px;
-  top: 350px;
+  gap: 15px;
 }
 
 i {
@@ -136,12 +111,19 @@ i:hover {
   color: blue;
 }
 
+section {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
 p {
-  font-size: large;
-  font-family: "Courier New", Courier, monospace;
   position: relative;
-  left: 700px;
+  left: 110px;
   bottom: 35px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  top: 300px;
 }
 
 h2 {
@@ -149,14 +131,15 @@ h2 {
   font-size: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
-  top: 1000px;
+  top: 350px;
   left: 200px;
 }
 
-.lorem {
-  font-size: 17px;
+.ciudad {
+  font-size: large;
   font-family: "Courier New", Courier, monospace;
-  position: absolute;
-  top: 1200px;
-  left: 180px;
+  position: relative;
+  top: 30px;
+  left: 700px;
+  bottom: 35px;
 }

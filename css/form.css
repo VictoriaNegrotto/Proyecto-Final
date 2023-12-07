@@ -6,10 +6,21 @@ body {
 }
 
 header {
-  background: linear-gradient(to bottom, #20475c 15%, #fff 100%);
+  background: linear-gradient(to bottom, #20475c 40%, #fff 100%);
   color: #fff;
   padding: 10px;
   text-align: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit;
+  font-size: 30px;
+  color: #0a181f;
+  text-shadow: #eba67c;
+  text-shadow: -1px 0 #eba67c, 2px -1px 0 #eba67c, -1px 2px 0 #eba67c,
+    1px 2px 0 #eba67c;
+  font-weight: bold;
 }
 
 .button-header {
@@ -27,7 +38,6 @@ header {
 .sideBar {
   position: absolute;
   width: 110px;
-  height: 2008px;
   background-color: #20475c;
 }
 
@@ -70,7 +80,7 @@ header {
   border-color: #0f232e;
   top: 60px;
 }
-h1 {
+h2 {
   color: #0f232e;
   font-size: 25px;
   position: absolute;
@@ -84,7 +94,7 @@ div {
   max-width: 300px;
   margin: auto;
   position: relative;
-  top: 200px;
+  top: 165px;
   left: 80px;
   padding: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
